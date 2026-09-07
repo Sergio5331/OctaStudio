@@ -6,7 +6,7 @@ body:
     id: version
     attributes:
       label: Versión de OctaStudio
-      placeholder: "1.0.1 Beta"
+      placeholder: "1.1.0 Beta"
     validations:
       required: true
   - type: input

@@ -9,7 +9,7 @@
 <p align="center">Windows 10 / 11 · 64 bits · Interfaz en español</p>
 
 <p align="center">
-  <a href="https://github.com/Sergio5331/OctaStudio/releases/tag/v1.0.1-beta.1"><strong>Descargar OctaStudio Beta</strong></a>
+  <a href="https://github.com/Sergio5331/OctaStudio/releases/tag/v1.1.0-beta.1"><strong>Descargar OctaStudio Beta</strong></a>
   &nbsp; · &nbsp;
   <a href="https://github.com/Sergio5331/OctaStudio/issues/new?template=error.yml">Reportar un problema</a>
 </p>
@@ -31,8 +31,8 @@ OctaStudio es un editor de video y audio para Windows. Reúne una línea de tiem
 
 ## Descargar e instalar
 
-1. Abre [la versión 1.0.1 Beta](https://github.com/Sergio5331/OctaStudio/releases/tag/v1.0.1-beta.1).
-2. En **Assets**, descarga **OctaStudio-Setup-1.0.1.exe** — aproximadamente **262 MB**.
+1. Abre [la versión 1.1.0 Beta](https://github.com/Sergio5331/OctaStudio/releases/tag/v1.1.0-beta.1).
+2. En **Assets**, descarga **OctaStudio-Setup-1.1.0.exe** — aproximadamente **262 MB**.
 3. Ejecuta el instalador y sigue el asistente en español.
 4. Abre **OctaStudio** desde el escritorio o el menú Inicio.
 
@@ -45,18 +45,25 @@ Si ya tienes OctaStudio, cierra la aplicación e instala la actualización en la
 | Elemento | Compatibilidad |
 | --- | --- |
 | Sistema | Windows 10 u 11 de 64 bits |
-| Interfaz | Microsoft Edge, Google Chrome o un navegador compatible actualizado |
+| Interfaz | Microsoft Edge o Google Chrome actualizado |
 | Subtítulos | Modelo incluido; el reconocimiento se ejecuta en el equipo |
 | Fuentes | Se utilizan las fuentes disponibles en Windows |
 | Firma digital | El instalador todavía no está firmado; Windows puede mostrar un aviso |
 
 Las pruebas se han realizado en el equipo de desarrollo. La compatibilidad con otros equipos continúa en evaluación. El reconocimiento de voz puede cometer errores: revisa los subtítulos antes de exportar.
 
-## Novedades de 1.0.1 Beta
+## Novedades de 1.1.0 Beta
 
-- Los selectores de archivos, guardado y carpetas aparecen sobre la ventana de OctaStudio.
-- Los textos se acomodan en líneas conservando el tamaño de letra elegido.
-- Instalador para Windows con icono y acceso directo.
+- Nuevo diseño oscuro con cabecera compacta, iconos renovados y tarjetas de medios.
+- Sesión temporal: los proyectos se conservan entre pestañas internas, pero se descartan al cerrar o recargar.
+- Perfil privado de navegador y cierre del proceso del editor al cerrar la ventana.
+- Limpieza de archivos y datos internos al desinstalar, conservando tus archivos originales y exportaciones.
+
+![Pantalla principal de OctaStudio 1.1.0](assets/octastudio-1.1.png)
+
+**Exporta antes de cerrar.** Esta versión no guarda ni restaura proyectos automáticamente.
+
+[Consultar las notas del parche](https://github.com/Sergio5331/OctaStudio/releases/tag/v1.1.0-beta.1)
 
 ## Comentarios y errores
 
