@@ -1,0 +1,36 @@
+name: Reportar un error
+description: Ayuda a mejorar OctaStudio Beta describiendo un problema.
+title: "[Error] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Versión de OctaStudio
+      placeholder: "1.0.1 Beta"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Versión de Windows
+      placeholder: "Windows 11 de 64 bits"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir el problema
+      description: Explica qué hiciste antes de que apareciera el error.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Resultado esperado y resultado observado
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Captura o mensaje de error
+      description: Opcional. Puedes arrastrar una captura aquí.
